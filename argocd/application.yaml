@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/devopsbyraham/self-healing-app.git
     targetRevision: HEAD
-    path: apps/backend
+    path: .
   destination:
     server: https://kubernetes.default.svc
     namespace: production
