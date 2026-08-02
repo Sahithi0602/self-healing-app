@@ -6,10 +6,10 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/devopsbyraham/self-healing-app.git
-    targetRevision: HEAD
+    repoURL: https://github.com/Sahithi0602/self-healing-app.git
+    targetRevision: HEAD 
     path: apps/backend
-  destination:
+  destination:  
     server: https://kubernetes.default.svc
     namespace: production
   syncPolicy:
